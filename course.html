@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=logo-.png></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="course.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()">Menu</i>
+        </nav>
+        <h1> Our Courses</h1>
+        </section>
+        <!-- --------course------- -->
+        <section class="course">
+            <h1>
+                Courses We Offer
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione quaerat iure.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+                <div class="course-col">
+                    <h3>Undergraduate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+                <div class="course-col">
+                    <h3>Postgraduate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+            </div>
+    
+        </section>
+        <!-- -----------facilities----------- -->
+        <section class="Facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Computer Lab.jpeg">
+                    <h3>Computer Lab</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Library.jpeg">
+                    <h3>Library</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="college bus.jpeg">
+                    <h3>College Bus</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+                </div>
+            </div>
+            
+        </section>
+
+           <!---------footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>
+        Made with  <i class="fa fa-heart"></i> by M.Bilal Younis
+    </p>
+
+
+</section>
+
+ <!------JavaScript for Toggle Menue-------> 
+ <script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+    
+</body>
+</html>

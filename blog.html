@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=logo-.png></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="course.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()">Menu</i>
+        </nav>
+        <h1> Our Certificate & Programs for 2023</h1>
+        </section>
+        <!-- --------blog page content------ -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="Amna Azam.jpg">
+                    <h2>Our Certificate & Programs for 2023</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et saepe est soluta tempora aperiam voluptates omnis fuga dolor repudiandae, neque temporibus vero. Cum architecto est saepe rem maxime necessitatibus. Unde</p>.<br>
+                        <p> Id, minus dolorum libero quasi tempora quis expedita enim recusandae quas ex aliquid? Dolorem rem minima impedit ipsam fugiat debitis! Sunt quis eligendi impedit tempore similique ipsam nisi nobis eius?</p>
+                   <br>
+                    <p>Totam eum odit labore harum repellendus asperiores suscipit similique! Reprehenderit qui quas, doloremque voluptas tenetur saepe, aspernatur vel laudantium obcaecati dignissimos dolorem odit molestiae ratione ad corporis mollitia neque iure.</p></p>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>
+                            Business Analytics 
+                        </span>
+                        <span>24</span>
+                        
+
+                    </div>
+                    <div>
+                        <span>
+                            IT Analytics 
+                        </span>
+                        <span>28</span>
+                        
+
+                    </div>
+                    <div>
+                        <span>
+                            Biology Analytics 
+                        </span>
+                        <span>23</span>
+                        
+
+                    </div>
+                    <div>
+                        <span>
+                            Computer Science Analytics 
+                        </span>
+                        <span>20</span>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+           <!---------footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quam optio consequatur deserunt</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>
+        Made with  <i class="fa fa-heart"></i> by M.Bilal Younis
+    </p>
+
+
+</section>
+
+ <!------JavaScript for Toggle Menue-------> 
+ <script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+    
+</body>
+</html>
